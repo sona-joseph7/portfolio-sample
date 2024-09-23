@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- Font Awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nerko+One&family=Playwrite+CU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate.style animation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="container">
+      <!-- Navigation -->
+      <nav>
+        <!-- logo -->
+        <img class="logo" src="./images/logo.png" alt="No images" />
+        <!-- links -->
+         <!-- when u use href= it will direct to that part while clicking on nav bar -->
+        <ul>
+          <li class="list-items"><a class="links" href="#home">Home</a></li>
+          <li class="list-items"><a class="links" href="#about">About</a></li>
+          <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+          <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!--Home  -->
+      <section id="home">
+        <div class="homeContent">
+          <h1 class="animate__animated animate__shakeX" id="username">I'm Sona <span id="lname">Joseph</span></h1>
+          <p id="userDetails">
+            This is my official portfolio website to describe all <br />
+            Details and work experience in web Development
+          </p>
+          <a id="download" href="./Sona Aleyamma Joseph - Resume.pdf" download
+            >Download CV</a
+          >
+        </div>
+        <!--home Image  -->
+        <div class="homeImage">
+          <img
+            id="shape"
+            class="group1"
+            src="./images/image2.png"
+            alt="No Image"
+          />
+          <img
+            id="girl"
+            class="group1"
+            src="./images/image1.png"
+            alt="No Image"
+          />
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <div class="sectionHead">
+          <h2 class="mainHead">About me</h2>
+          <span class="subhead">Introduction</span>
+        </div>
+        <div class="aboutBody">
+          <div data-aos="fade-right" class="aboutImage">
+            <img
+              class="img1"
+              src="https://static.vecteezy.com/system/resources/previews/023/798/845/original/self-love-an-love-yor-body-concept-the-girl-hugs-herself-and-presses-her-heart-to-her-with-the-words-i-love-myself-vector.jpg"
+              alt="No Image"
+            />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit
+              debitis repellendus quo autem sit, earum enim magnam placeat
+              nostrum voluptatum aut porro, nesciunt reprehenderit commodi
+              repudiandae officia natus aliquam. Eius?
+            </p>
+            <div class="informations">
+              <div class="infoBox">
+                <i class="fa-solid fa-user"></i>
+                <span>Sona Joseph</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-phone"></i>
+                <span>8078013923</span>
+              </div>
+              <div class="infoBox">
+                <i class="fa-solid fa-envelope"></i>
+                <span>sonajosephsj07@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skill -->
+      <section id="skill">
+        <div class="sectionHead">
+          <h2 class="mainHead">Skills</h2>
+          <span class="subhead">My Skills</span>
+        </div>
+        <div class="skillContent">
+          <div class="progressBar">
+            <div class="bars">
+              <h3 class="barHead">HTML</h3>
+              <span class="barPercent">89%</span>
+              <div class="basebar"></div>
+              <div  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">CSS</h3>
+              <span class="barPercent">83%</span>
+              <div class="basebar"></div>
+              <div  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">JS</h3>
+              <span class="barPercent">71%</span>
+              <div class="basebar"></div>
+              <div  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+            </div>
+            <div class="bars">
+              <h3 class="barHead">REACT</h3>
+              <span class="barPercent">79%</span>
+              <div class="basebar"></div>
+              <div  data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+            </div>
+          </div>
+          <div data-aos="zoom-in" class="skillImage">
+            <img width="100%" src="./images/skill.avif" alt="Skills" />
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section id="contact">
+        <div class="sectionHead">
+          <h2 class="mainHead">Contacts</h2>
+          <span class="subhead">My Contacts</span>
+        </div>
+        <div class="iconCollection">
+          <!-- linkedin -->
+           <div class="icon">
+            <a href="https://www.linkedin.com/in/sona-aleyamma-joseph/" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+           </div>
+          <!-- github -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sona-aleyamma-joseph/" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+           </div>
+          <!-- instagram -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sona-aleyamma-joseph/" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+           </div>
+          <!-- facebook -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sona-aleyamma-joseph/" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+           </div>
+          <!-- twitter -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sona-aleyamma-joseph/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+           </div>
+          <!-- whatsapp -->
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/sona-aleyamma-joseph/" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+           </div>
+        </div>
+      </section>
+      <!-- footer -->
+       <footer>
+        <p id="copyright">&copy; My portfolio Website -June 2024, All RightsReserved to &reg; Sona Joseph</p>
+        <div class="icon upArrow">
+            <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+           </div>
+       </footer>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
